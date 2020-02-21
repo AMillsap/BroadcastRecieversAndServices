@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tvRandomStringOne"/>
+
+    <TextView
+        android:id="@+id/tvRandomStringOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is the second view"
+        app:layout_constraintTop_toBottomOf="@+id/ivImage"
+        app:layout_constraintBottom_toTopOf="@+id/tvRandomStringTwo"/>
+
+    <TextView
+        android:id="@+id/tvRandomStringTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is the third view"
+        app:layout_constraintTop_toBottomOf="@+id/tvRandomStringOne"
+        app:layout_constraintBottom_toTopOf="@+id/tvRandomStringThree"/>
+
+    <TextView
+        android:id="@+id/tvRandomStringThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is the fourth view"
+        app:layout_constraintTop_toBottomOf="@+id/tvRandomStringTwo"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

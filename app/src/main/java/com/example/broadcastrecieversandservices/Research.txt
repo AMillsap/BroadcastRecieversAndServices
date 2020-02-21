@@ -1,0 +1,17 @@
+1. What is the difference in an started service and a bound service?
+    A started service runs until its task is complete or until it is manually stopped while a bound
+    service runs until it is fully unbound from all tasks bonded to it.
+2. Define what a observer/ subscriber relation is.
+    A subscriber subscribes to an observer to know when data or some event has happened or changed
+    that the observer is handling.
+3. Define what a client/server relation is.
+    A client sends data for the server to handle and after the server uses the data given it can send
+    this new data back to the client or transfer the data to another client that wants it.
+4. Define each of the HTTP verbs
+    POST is to create a resource. GET is defined as receiving a resource. PUT replaces the resource.
+    PATCH modifies the selected resource. DELETE removes the selected resource.
+5. Describe at least one use for each service (Foreground, Background, Intent, Bound)
+    A foreground service would be used for listening to music. A background service would be used for
+    compacting data. A bound service is like a skype call where the call is always running until the
+    last person leaves the call. An intent service is used for a repetitive task like a score board
+    that is constantly updating.
